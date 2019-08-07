@@ -50,18 +50,8 @@ void setup() {
     int found = WiFi.getCredentials(ap, 10);
     
     // These are the networks we know about right now:
-    //
-    //  SSID    Workspace1              PW  youareawesome   (default network from setup)
-    //  SSID    Factory Phnom Penh      PW  followyourdreams
-    //  SSID    L's iPhone              PW  something
-    //  SSID    Little Garden           PW  Welcome1615
-    //  SSID    Stem Phnom Penh         PW  Welcome2STEMPP
     
-    WiFi.setCredentials("STEM Phnom Penh", "Welcome2STEMPP");
-    WiFi.setCredentials("Little Garden", "Welcome1615");
-    WiFi.setCredentials("L's iPhone", "something");
-    WiFi.setCredentials("Factory Phnom Penh", "ihaveideas");
-    WiFi.setCredentials("Workspace1", "youareawesome");
+    // Private password go here
     
     Serial.println("Setup complete");
     
